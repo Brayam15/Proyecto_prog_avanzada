@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.head-container{
+    display: flex;
+    background-color: #4CAF50;
+    text-align: center;
+}
+.head h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo{
+    padding: 8px;
+    width: 40px;
+    height: 40x;
+}
+.menu{
+    padding: 6px;
+    display: inline;
+    margin: 40px;
+}
+.buscar{
+    display: inline;  
+}
+#busqueda{
+    margin-left: 100px ;
+}
+.navegacion{
+    padding: 5px;
+    background-color: #58D68D;
+    text-align: center;
+    position: sticky;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.head h1{
+    color: white;
+}
+.portada{
+    width: 200px;
+    height: 300px;
+}
+.miserables img{
+    object-fit: cover;
+}
+.miserables{
+    padding-top: 1px;
+    padding: 15px;
+    display: flex;
+}
+.miserables h2{
+    text-decoration: none;
+}
+#victor{
+    padding: 0px;
+    width: 200px;
+    height: 300px;
+}
+.estante{
+    margin: 10px;
+    border: outset 1px #EFEBE9;
+}
+#contenedor{
+    border: outset 1px #EFEBE9;
+}
+.pie{
+    border: 1px outset #EFEBE9;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 25px;
+    clear: both;
+}
+.base{
+    padding: 10px;
+    text-align: center;
+}
+a:hover{
+    border-bottom: 3px solid white;
+    transition: 0.1s;
+}
+.cuerpo{
+    background: #D7CCC8;
+}
+.libro iframe{
+    margin: auto;
+    width: 60%; 
+    height: 1200px;
+}
+.libro{
+    text-align: center;
+    border: 1px outset #EFEBE9;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 25px;
+    display: block;
+}
+.ficha p{
+    display: inline;
+    font-size: 10px;
+}
+.ficha{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#autor{
+    width: 20%;
+    text-align: left;
+    
+}
+.columna img{
+    padding: 15px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
